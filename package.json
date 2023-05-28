@@ -1,0 +1,21 @@
+{
+  "name": "todo-wallpaper",
+  "version": "1.0.0",
+  "description": " a wallpaper genration api fetching todo list",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Ketan Pal",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^2.2.5",
+    "bannerbear": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
